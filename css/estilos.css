@@ -149,3 +149,60 @@ footer{
 				width: 48px;
 				height: 38px;
 			}
+
+/****EVERYDAY MENU****/
+.muestra{
+	float: left;
+	display: inline-block;
+	vertical-align: top;
+}
+	.muestra img{
+		width: 85%;
+		height: 85%;
+	padding: 10px 0 0 10px;
+	}
+table{
+	float: left;
+	margin-left: 15px;
+	width: 520px;
+	border-top: 6px solid #2e9a18;
+}
+	table .separador-table{
+		padding-left: 40px;
+	}
+.menu-pasta h3, .menu-pizza h3{
+	text-align: center;
+	color: #7c6a30;
+	font-size: 2em;
+	margin: 0 0 10px 0;
+	padding:0 0 0 10px;
+	
+
+}
+.menu-pasta, .menu-pizza{
+	background: url(../images/bg-food-menu.jpg);
+	width: 960px !important;
+}
+
+/****ABOUT****/
+.about h2, .blog h2{
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+.about h3, .about p, .about a, .blog .description, .blog .description a{
+	color: #36431f;
+	text-shadow: 0 0 2px rgba(255,255,255,0.2);
+}
+/****BLOG****/
+
+.blog .description{
+	float: left;
+	width: 480px;
+}
+	.blog .mapa img{
+		margin-left: 60px;
+		border:5px solid #fde6a0;
+	}
+.blog{
+	margin-bottom: 20px;
+}
